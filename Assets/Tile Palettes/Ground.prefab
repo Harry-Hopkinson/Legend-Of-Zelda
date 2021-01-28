@@ -85,6 +85,16 @@ Tilemap:
   m_GameObject: {fileID: 3854870996915375438}
   m_Enabled: 1
   m_Tiles:
+  - first: {x: 3, y: -37, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1073
+      m_TileSpriteIndex: 1073
+      m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -1, y: -33, z: 0}
     second:
       serializedVersion: 2
@@ -12963,6 +12973,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 5fb304113b8c55d449ec08f747ba078b, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: b1695a7dd4ee49143ade741f74311798, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: f1121ad0e1b19c84e8ebc3db5dc5410f, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 1
     m_Data: {fileID: -2671460228953875570, guid: 0666fff7276548b4f97b9bbbee3130de, type: 3}
@@ -15110,6 +15122,8 @@ Tilemap:
     m_Data: {fileID: -8996598735541370244, guid: 0666fff7276548b4f97b9bbbee3130de, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 1933500101653270567, guid: 0666fff7276548b4f97b9bbbee3130de, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300000, guid: 7e050de80f28449489affc345fccc33b, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 1073
     m_Data:
@@ -15129,14 +15143,32 @@ Tilemap:
       e31: 0
       e32: 0
       e33: 1
+  - m_RefCount: 1
+    m_Data:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: -0.5
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: -0.5
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_TileColorArray:
-  - m_RefCount: 1073
+  - m_RefCount: 1074
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: -1, y: -33, z: 0}
-  m_Size: {x: 40, y: 36, z: 1}
+  m_Origin: {x: -1, y: -37, z: 0}
+  m_Size: {x: 40, y: 40, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -15205,7 +15237,7 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
---- !u!114 &6427432425046399829
+--- !u!114 &5606365570146467887
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
