@@ -21,5 +21,12 @@ public class Pot : MonoBehaviour
     public void Smash()
     {
         anim.SetBool("smash", true);
+        StartCoroutine(breakCo());
+    }
+
+    IEnumerator breakCo()
+    {
+        yield return new WaitForSeconds(.3f);
+        this.gameObject.SetActive(false);
     }
 }
